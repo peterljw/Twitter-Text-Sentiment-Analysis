@@ -2,7 +2,7 @@
 
 This project consists of an R Shiny web app that retrieves a number of tweets on a particular topic based on the user's inputs. The web app then processes the text data with NLP techniques and outpus a sentimen analysis indicator that aims to capture the emotions displayed in the text content as well as a word cloud which highlights frequent words used in the retrieved tweets.
 
-Link to the published web app: https://peterljw.shinyapps.io/imdb-visualization/
+Link to the published web app: https://peterljw.shinyapps.io/Twitter-Text-Analysis/
 
 ## Built With
 
