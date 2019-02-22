@@ -61,9 +61,10 @@ ui <- fluidPage(
    sidebarLayout(
       sidebarPanel(
         numericInput("num", h4("Number of Tweets"), 
-                     value = 500),
-         textInput("search", h4("Search"), 
+                     value = 1000),
+        textInput("search", h4("Search"), 
                     value = "Enter search topic..."),
+        helpText("Note: Please be patient as the loading speed is approximately 15 secs/1k tweets."),
         actionButton("goButton", "Search", icon("twitter"),
                      style="color: #fff; background-color: #337ab7")
       ),
